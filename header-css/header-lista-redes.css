@@ -1,0 +1,6 @@
+.header__lista__redes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-right: 1rem;
+}

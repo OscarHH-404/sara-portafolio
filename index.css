@@ -1,0 +1,16 @@
+:root{
+    --fuente-principal: "Raleway", sans-serif;
+    --color-letras-principal: #464646;
+}
+
+html{
+    margin-top: .6rem;
+    margin-left: .6rem;
+    margin-right: .6rem;
+
+    font-family: var(--fuente-principal);
+}
+
+li{
+    list-style: none;
+}

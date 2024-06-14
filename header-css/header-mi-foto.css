@@ -1,0 +1,9 @@
+.header__mi__foto{
+    background-image: url(../img/foto-redonda.png);
+    background-image: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+
+    width: 12rem;
+    height: 12rem;
+}
