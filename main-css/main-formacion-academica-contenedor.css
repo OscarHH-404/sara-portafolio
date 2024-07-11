@@ -1,0 +1,5 @@
+@media (min-width: 620px) {
+    .main__formacion__academica__contenedor{
+        display: flex;
+    }
+}

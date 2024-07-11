@@ -2,3 +2,15 @@
     color: var(--color-letras-principal);
     font-size: 2rem;
 }
+
+@media (min-width: 420px) {
+    .main__sobre__mi__titulo{
+        text-align: center;
+    }
+}
+
+@media (min-width: 620px) {
+    .main__sobre__mi__titulo{
+        text-align: left;
+    }
+}

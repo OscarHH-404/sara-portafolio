@@ -1,0 +1,7 @@
+@media (min-width: 620px) {
+    .header__contenedor__sobremi{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 1rem;
+    }
+}

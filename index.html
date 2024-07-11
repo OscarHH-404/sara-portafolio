@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="header-css/header-p.css">
     <link rel="stylesheet" href="header-css/header-ul.css">
     <link rel="stylesheet" href="header-css/header-li.css">
+    <link rel="stylesheet" href="header-css/header-contenedor-sobremi.css">
     <link rel="stylesheet" href="header-css/header-sobre-mi.css">
     <link rel="stylesheet" href="header-css/header-mi-foto.css">
     <link rel="stylesheet" href="header-css/header-presentacion.css">
@@ -32,12 +33,14 @@
     <link rel="stylesheet" href="main-css/main-skill-img.css">
     <link rel="stylesheet" href="main-css/main-skill-tittle.css">
     <link rel="stylesheet" href="main-css/main-formacion-academica-titulo.css">
+    <link rel="stylesheet" href="main-css/main-formacion-academica-contenedor.css">
     <link rel="stylesheet" href="main-css/main__formacion__academica.css">
     <link rel="stylesheet" href="main-css/main__academia_img.css">
     <link rel="stylesheet" href="main-css/main__academia_p.css">
     <link rel="stylesheet" href="main-css/main-experiencia-prefesional.css">
     <link rel="stylesheet" href="main-css/main-experiencia-profesional-titulo.css">
     <link rel="stylesheet" href="main-css/main-experiencia-parrafo.css">
+    <link rel="stylesheet" href="main-css/main-experiencia-contenedor-principal.css">
     <link rel="stylesheet" href="main-css/main-experiencia-contenedor.css">
     <link rel="stylesheet" href="main-css/main-experiencia-contenedor-img.css">
     <link rel="stylesheet" href="main-css/main-experiencia-contenedor-p.css">
@@ -57,16 +60,17 @@
                 <li class="header__li">contacto@contacto.com</li>
             </ul>
         </div>
-        <div class="header__sobre__mi">
-            <div class="header__mi__foto"></div>
-        </div>
-        <div class="header__presentacion">
-            <h2 class="header__presentacion__inicial">Hola, mi nombre es Sarahí Santiago, soy correctora de estilos...</h2>
-            <p class="header__presentacion__cuentas">Soy formada en lorem ipsum sit amet consectetur y actualmente estoy participando en la cuenta Getnet.</p>
-            <ul class="header__lista__redes">
-                <li class="header__redes"><a class="header__link__redes" href="#">Linkedin<img src="img/flecha.png" alt="flecha-redes"></a></li>
-                <li class="header__redes"><a class="header__link__redes" href="#">Instagram<img src="img/flecha.png" alt="flecha-redes"></a></li>
-            </ul>
+        <div class="header__contenedor__sobremi">
+            <div class="header__sobre__mi">
+                <div class="header__mi__foto"></div>
+            </div>
+            <div class="header__presentacion">
+                <h2 class="header__presentacion__inicial">Sarahí Santiago</h2>
+                <p class="header__presentacion__cuentas">Soy formada en lorem ipsum sit amet consectetur y actualmente estoy participando en la cuenta Getnet.</p>
+                <ul class="header__lista__redes">
+                    <li class="header__redes"><a class="header__link__redes" href="#">Linkedin<img src="img/flecha.png" alt="flecha-redes"></a></li>
+                </ul>
+            </div>
         </div>
     </header>
 
@@ -107,42 +111,47 @@
             </div>
         </div>
         <h3 class="main__formacion__academica__titulo">Formación académica</h3>
-        <div class="main__formacion__academica">
-            <img class="main__academia_img" src="img/logo-negroBis.png" alt="F.E.S. Acatlán">
-            <p class="main__academia_p">Lengua y literatura hispanicas</p>
-        </div>
-        <div class="main__formacion__academica">
-            <img class="main__academia_img" src="img/Imagotipo compacto gris 600px.png" alt="F.E.S. Acatlán">
-            <p class="main__academia_p">Humanidades y Narrativas Multimedia</p>
+        <div class="main__formacion__academica__contenedor">
+            <div class="main__formacion__academica">
+                <img class="main__academia_img" src="img/logo-negroBis.png" alt="F.E.S. Acatlán">
+                <p class="main__academia_p">Lengua y literatura hispanicas</p>
+            </div>
+            <div class="main__formacion__academica">
+                <img class="main__academia_img" src="img/Imagotipo compacto gris 600px.png" alt="F.E.S. Acatlán">
+                <p class="main__academia_p">Humanidades y Narrativas Multimedia</p>
+            </div>
         </div>
         <div class="main__experiencia__profesional">
             <h3 class="main__experiencia__profesional__titulo">Experiencia profesional</h3>
-            <p class="main__experiencia__parrafo">Escritura de blogs</p>
-            <div class="main__experiencia__contenedor">
-                <img class="main__experiencia__contenedor__img" src="img/importanciaDeLosLeads.jpg" alt="La importancia de los leads">
-                <p class="main__experiencia__contenedor__p">¿Cuál es la importancia de los leads para tu negocio?</p>
-                <div>
-                    <button class="main__experiencia__contenedor_btn"><a href="https://kiper.app/nota/cual-es-la-importancia-de-los-leads-para-tu-negocio" target="_blank">Leer más</a></button>
+            <p class="main__experiencia__parrafo">Escritura de blogs para el CRM Kiper</p>
+            <div class="main__experiencia__contenedor__principal">
+                <div class="main__experiencia__contenedor">
+                    <img class="main__experiencia__contenedor__img" src="img/importanciaDeLosLeads.jpg" alt="La importancia de los leads">
+                    <p class="main__experiencia__contenedor__p">¿Cuál es la importancia de los leads para tu negocio?</p>
+                    <div>
+                        <button class="main__experiencia__contenedor_btn"><a href="https://kiper.app/nota/cual-es-la-importancia-de-los-leads-para-tu-negocio" target="_blank">Leer más</a></button>
+                    </div>
                 </div>
-            </div>
-            <div class="main__experiencia__contenedor">
-                <img class="main__experiencia__contenedor__img" src="img/posicionamientoSEM.jpg" alt="SEM">
-                <p class="main__experiencia__contenedor__p">¿Qué es el posicionamiento SEM?</p>
-                <div>
-                    <button class="main__experiencia__contenedor_btn"><a href="https://kiper.app/nota/que-es-el-posicionamiento-sem" target="_blank">Leer más</a></button>
+                <div class="main__experiencia__contenedor">
+                    <img class="main__experiencia__contenedor__img" src="img/posicionamientoSEM.jpg" alt="SEM">
+                    <p class="main__experiencia__contenedor__p">¿Qué es el posicionamiento SEM?</p>
+                    <div>
+                        <button class="main__experiencia__contenedor_btn"><a href="https://kiper.app/nota/que-es-el-posicionamiento-sem" target="_blank">Leer más</a></button>
+                    </div>
                 </div>
-            </div>
-            <div class="main__experiencia__contenedor">
-                <img class="main__experiencia__contenedor__img" src="img/crmPorQueConocerlo.jpg" alt="La importancia de los leads">
-                <p class="main__experiencia__contenedor__p">¿Qué es un CRM y por qué debemos conocerlo?</p>
-                <div>
-                    <button class="main__experiencia__contenedor_btn"><a href="https://kiper.app/nota/que-es-un-crm-y-por-que-debemos-conocerlo" target="_blank">Leer más</a></button>
+                <div class="main__experiencia__contenedor">
+                    <img class="main__experiencia__contenedor__img" src="img/crmPorQueConocerlo.jpg" alt="La importancia de los leads">
+                    <p class="main__experiencia__contenedor__p">¿Qué es un CRM y por qué debemos conocerlo?</p>
+                    <div>
+                        <button class="main__experiencia__contenedor_btn"><a href="https://kiper.app/nota/que-es-un-crm-y-por-que-debemos-conocerlo" target="_blank">Leer más</a></button>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="main__contacto">
             <h3 class="main__contacto__titulo">Contacto</h3>
             <p class="main__contacto__parrafo">¿Quieres contactarme?</p>
+            
         </div>
     </main>
 </body>

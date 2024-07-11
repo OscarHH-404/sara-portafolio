@@ -3,3 +3,10 @@
     background-color: #EAF2FD;
     padding: .4rem;
 }
+
+@media (min-width: 620px) {
+    .main__formacion__academica{
+        width: 50%;
+        margin: 1rem;
+    }
+}

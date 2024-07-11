@@ -1,0 +1,6 @@
+@media (min-width: 620px) {
+    .main__experiencia__contenedor__principal{
+        display: grid;
+        grid-template-columns: 50% 2fr;
+    }
+}
