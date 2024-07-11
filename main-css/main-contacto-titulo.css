@@ -1,0 +1,7 @@
+.main__contacto__titulo{
+    color: var(--color-letras-principal);
+    
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 2.4rem;
+}
