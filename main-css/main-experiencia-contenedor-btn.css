@@ -1,0 +1,19 @@
+.main__experiencia__contenedor_btn{
+    width: 30%;
+
+    margin-top: .6rem;
+}
+
+.main__experiencia__contenedor_btn a{
+    text-decoration: none;
+    cursor: pointer;
+
+    color: var(--color-letras-principal);
+    font-family: var(--fuente-principal);
+    font-size: .9rem;
+}
+
+/*HOVER*/
+.main__experiencia__contenedor_btn a:hover{
+    font-weight: bold;
+}
