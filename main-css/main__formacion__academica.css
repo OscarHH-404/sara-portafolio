@@ -10,3 +10,10 @@
         margin: 1rem;
     }
 }
+
+@media (min-max: 620px) {
+    .main__formacion__academica{
+        width: 20%;
+        margin: 1rem;
+    }
+}

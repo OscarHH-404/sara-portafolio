@@ -1,19 +1,28 @@
 .main__experiencia__contenedor_btn{
-    width: 30%;
-
+    display: flex;
+    justify-content: center;
     margin-top: .6rem;
 }
 
 .main__experiencia__contenedor_btn a{
-    text-decoration: none;
-    cursor: pointer;
+    background-color: var( --color-letras-principal);
+    color: white;
 
-    color: var(--color-letras-principal);
-    font-family: var(--fuente-principal);
-    font-size: .9rem;
+    height: 1.4rem;
+    width: 8rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    align-content: center;
+}
+
+@media (max-width: 1080px) {
+    .main__experiencia__contenedor__none{
+        display: none;
+    }
 }
 
 /*HOVER*/
-.main__experiencia__contenedor_btn a:hover{
+.main__experiencia__contenedor_btn :hover{
     font-weight: bold;
+    height: 1.6rem;
 }
