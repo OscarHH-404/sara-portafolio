@@ -20,3 +20,7 @@ li{
 main{
     margin-top: 1rem;
 }
+
+.display{
+    display: none;
+}

@@ -1,0 +1,21 @@
+.container__submit{
+    display: flex;
+    align-self: flex-start;
+    margin-left: 2rem;
+}
+
+.form__submit{
+    margin-top: .6rem;
+    width: 6rem;
+    height: 2rem;
+    border: none;
+    border-radius: 1rem;
+
+    color: white;
+    background-color: var(--color-letras-principal);
+}
+
+.form__submit:hover{
+    font-weight: bold;
+    font-size: .9rem;
+}
