@@ -10,6 +10,12 @@ html{
     font-family: var(--fuente-principal);
 }
 
+@media (min-width: 1080px) {
+    html{
+        margin: 1rem 2rem 0 2rem;
+    }
+}
+
 h3{
     color: var(--color-letras-principal);
 }
@@ -19,8 +25,4 @@ li{
 }
 main{
     margin-top: 1rem;
-}
-
-.display{
-    display: none;
 }

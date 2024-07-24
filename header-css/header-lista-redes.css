@@ -4,3 +4,9 @@
     justify-content: space-evenly;
     margin-top: 1rem;
 }
+
+@media (min-width: 1080px) {
+    .header__lista__redes{
+        justify-content: left;
+    }
+}

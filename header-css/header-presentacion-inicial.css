@@ -6,3 +6,9 @@
 
     color: var(--color-letras-principal);
 }
+
+@media (min-width: 1080px) {
+    .header__presentacion__inicial{
+        text-align: left;
+    }
+}

@@ -8,8 +8,16 @@
     .main__sobre__mi__parrafo{
         text-align: center;
     }
-}@media (min-width: 620px) {
+}
+
+@media (min-width: 620px) {
     .main__sobre__mi__parrafo{
         text-align: justify;
+    }
+}
+
+@media (min-width: 1080px) {
+    .main__sobre__mi__parrafo{
+        font-size: 1.2rem;
     }
 }

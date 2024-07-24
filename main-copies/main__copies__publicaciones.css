@@ -1,3 +1,20 @@
 .main__copies__publicaciones{
     margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+@media (min-width: 620px) {
+    .main__copies__publicaciones{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 720px) {
+    .main__copies__publicaciones{
+        justify-content: space-evenly;
+    }
 }

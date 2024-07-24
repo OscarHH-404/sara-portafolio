@@ -7,3 +7,10 @@
     width: 12rem;
     height: 12rem;
 }
+
+@media (min-width: 1080px) {
+    .header__mi__foto{
+        width: 14rem;
+        height: 14rem;
+    }     
+}

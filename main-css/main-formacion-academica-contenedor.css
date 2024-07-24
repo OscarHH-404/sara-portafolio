@@ -3,3 +3,9 @@
         display: flex;
     }
 }
+
+@media (min-width: 1080px) {
+    .main__formacion__academica__contenedor{
+        justify-content: center;
+    }
+}
